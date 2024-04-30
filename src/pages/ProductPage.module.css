@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (min-width:320px) and (max-width:920px) {
+    .container{
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .products{
+      justify-content: center;
+    }
+  }
